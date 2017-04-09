@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+
+body {
+    font-family:'Open Sans Condensed', sans-serif;
+}
+p {
+    font-size: 20px;
+}
+
+
+.navlinks li {
+    padding: 15px 45px 10px 45px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+    }
+.navlinks li:first-child {
+    padding-left: 90px;
+    
+}
+
+.navlinks a {
+    color: #141414;
+}
+.navlinks a:hover {
+    text-decoration:none;
+    color: #b32323;
+}
+
+.mataji {
+    max-width:100%;
+    max-height:auto;
+    margin-bottom: 20px;
+}
+
+.crop {
+    width: 1349px;
+    height: auto;
+    overflow: hidden;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+.smallpic
+{
+    height: 150px;
+    width: 260px;
+    }
+
+.smallpicsize
+
+{
+    max-height:100%;
+    max-width:100%;
+    margin-bottom: 15px;
+}
+
+a.minilinks  {
+    font-size: 20px;
+    color: #b32323;
+    font-weight: bold;
+}
+a.minilinks:hover {
+    text-decoration:none;
+}
+
+footer {
+    height: 200px;
+    background-color: #383838;
+    color:#D3D3D3;
+    margin-top:200px;
+    padding-top:25px;
+}
+
+footer a {
+    font-size:18px;
+    color:#D3D3D3;
+}
+
+footer a:hover {
+    text-decoration:none;
+    color: #fff;
+}
+
+.fa {
+    padding: 5px 15px 15px 15px;
+}
