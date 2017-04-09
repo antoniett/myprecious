@@ -1,2 +1,0 @@
-# myprecious
-my websites
