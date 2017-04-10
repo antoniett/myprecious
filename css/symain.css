@@ -7,27 +7,51 @@ body {
 p {
     font-size: 20px;
 }
+
+/*site logo*/
+
 .sylogo {
     margin:auto;
     display:block;
 }
 
-.navlinks {
-    padding-top:10px;
-    text-align:center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+
+/*navigation*/
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#b32323;
 }
 
-.navlinks a {
-    padding: 15px 45px 10px 45px;
-    color: #141414;
+@media (min-width: 768px) {
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
 }
-.navlinks a:hover {
-    text-decoration:none;
-    color: #b32323;
+.navbar {
+    margin-bottom: 0;
 }
+  
+.navbar-default .navbar-nav > li > a { 
+  color: #141414; 
+    font-size: 20px;
+    font-weight:bold;
+    text-align:center;
+    }
+    
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:#b32323;
+  background-color: transparent;
+}
+
+.nav > li > a {
+   padding: 10px 30px;
+}
+
+/*backgound photo */
 
 .mataji {
    background: url(images/mataji.jpg) no-repeat;
@@ -40,13 +64,14 @@ p {
     box-sizing: content-box;
 }
 
-.navbar {
-    margin-bottom: 0;
-}
+/*text in the middle */
+
 .middletext {
     font-size:30px; 
     text-align:center;
 }
+
+/*small photos and short descriptions*/
 
 .smallpic {
     height: 150px;
@@ -68,6 +93,8 @@ a.minilinks  {
 a.minilinks:hover {
     text-decoration:none;
 }
+
+/*footer*/
 
 footer {
     height: 170px;

@@ -5,8 +5,9 @@
 <link rel="stylesheet" href="css/symain.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-language" content="hr-HR" />
 
 </head>
@@ -16,8 +17,18 @@
     <img src="images/sylogo2.png" class="sylogo">
     </header>
     
+    
     <div class="navbar navbar-default navbar-static-top" >
-        <ul class="list-unstyled list-inline navlinks">
+        <div class="container-fluid">   
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button> </div>
+        <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
             <li><a href="syyoga.html">Sahaja Yoga</a></li>
             <li><a href="shrimataji.html">Shri Mataji</a></li>
             <li><a href="meditacija.html">Meditacija</a></li>
@@ -27,7 +38,12 @@
             <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="novosti.html">Novosti</a></li>
         </ul>
+        </div>
     </div>
+    </div>
+        
+    
+    
 <div class="mataji"> </div>
 
     
@@ -35,8 +51,8 @@
     <h2 class="lead middletext"> Otkrijte jedinstvenu metodu koja omogućuje spontano dostizanje stanja meditacije, te ostvarenje blagostanja, harmonije i znanja o sebi.</h2>
     
        
-    <div class="row">
-        <div class="col-md-3">
+    
+        <div class="col-md-3 col-xs-12">
             <div class="smallpic">
                 <img src ="images/matajimini.jpg" class="smallpicsize">
                 <p><b>Prema učenju Shri Mataji</b></p>
@@ -44,7 +60,7 @@
                 <a href="shrimataji.html" class="minilinks">Više...</a>
              </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-12">
                 <div class="smallpic">
                 <img src="images/meditation.png" class="smallpicsize">
                 <p><b>Online uvod u meditaciju</b></p>
@@ -52,16 +68,15 @@
                 <a href="meditacija.html "class="minilinks">Više...</a>
              </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-12">
             <div class="smallpic">
                 <img src="images/meditationcenter.png" class="smallpicsize">
                 <p><b>Radionice meditacije</b></p>
                 <p>BESPLATNI tečajevi meditacije. Dođite i opustite se u centrima Sahaja Yoge u Hrvatskoj.</p>
                 <a href="radionice.html"class="minilinks">Više...</a>
-                
-            </div>
-        </div>
-        <div class="col-md-3">
+                 </div>
+    </div>
+        <div class="col-md-3 col-xs-12">
             <div class="smallpic">
                 <img src ="images/subtle.jpg" class="smallpicsize">
                 <p><b>Upoznajte suptilno tijelo</b></p>
@@ -69,7 +84,7 @@
                 <a href="suptilnotijelo.html" class="minilinks">Više...</a>
                 
             </div>
-        </div>
+       </div>
       
         </div>
     </div>
@@ -103,7 +118,9 @@
          </div>
         
     </footer>
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+        
 </body>
 </html>
 
