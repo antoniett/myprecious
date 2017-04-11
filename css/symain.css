@@ -18,6 +18,17 @@ p {
 
 /*navigation*/
 
+.img-responsive {
+    height:auto;
+    width:auto;
+    max-height:60px;
+    max-width:250px;
+}
+
+.btn-responsive {
+    margin-top:15px;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color:#b32323;
 }
@@ -32,6 +43,11 @@ p {
 }
 .navbar {
     margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
 }
   
 .navbar-default .navbar-nav > li > a { 
@@ -51,17 +67,21 @@ p {
    padding: 10px 30px;
 }
 
-/*backgound photo */
+@media screen and (max-width:1034px) {
+    .nav > li > a {
+   padding: 10px 18px;
+}
+}
+
+@media screen and (max-width:1034px) {
+    .nav > li > a {
+   padding: 10px 12px;
+}
+}
+/*main photo */
 
 .mataji {
-   background: url(images/mataji.jpg) no-repeat;
-   background-size:100% auto;
-    width : 100% ;
-    height: 600px;
-    margin:auto;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
+   width:100%;
 }
 
 /*text in the middle */
@@ -69,7 +89,8 @@ p {
 .middletext {
     font-size:30px; 
     text-align:center;
-}
+   
+    }
 
 /*small photos and short descriptions*/
 
@@ -92,6 +113,15 @@ a.minilinks  {
 
 a.minilinks:hover {
     text-decoration:none;
+}
+
+
+
+@media screen and (max-width:991px){
+    .minilinks{
+        margin-bottom:40px;
+    }
+    
 }
 
 /*footer*/
