@@ -67,15 +67,15 @@ p {
    padding: 10px 30px;
 }
 
-@media screen and (max-width:1034px) {
+@media screen and (max-width:1064px) {
     .nav > li > a {
    padding: 10px 18px;
 }
 }
 
-@media screen and (max-width:1034px) {
+@media screen and (max-width:872px) {
     .nav > li > a {
-   padding: 10px 12px;
+   padding: 10px 10px;
 }
 }
 /*main photo */
@@ -94,15 +94,12 @@ p {
 
 /*small photos and short descriptions*/
 
-.smallpic {
-    height: 150px;
-    width: 260px;
-    }
 
 .smallpicsize {
     max-height:100%;
     max-width:100%;
     margin-bottom: 15px;
+    margin-top:15px;
 }
 
 a.minilinks  {
@@ -114,15 +111,7 @@ a.minilinks  {
 a.minilinks:hover {
     text-decoration:none;
 }
-
-
-
-@media screen and (max-width:991px){
-    .minilinks{
-        margin-bottom:40px;
-    }
     
-}
 
 /*footer*/
 
@@ -130,7 +119,7 @@ footer {
     height: 170px;
     background-color: #383838;
     color:#D3D3D3;
-    margin-top:200px;
+    margin-top:30px;
     padding-top:25px;
 }
 
@@ -153,3 +142,17 @@ footer a:hover {
     float:right; 
     padding:115px 0 0 0;
 }
+
+@media screen and (max-width:991px) {
+    footer{
+    height:auto;
+    }
+}
+@media screen and (max-width:767px){
+    footer{
+        text-align:center;
+    }
+    footer p{
+        margin-top:20px;
+    }
+    }
