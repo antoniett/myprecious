@@ -95,7 +95,7 @@ p {
 /*small photos and short descriptions*/
 
 
-.smallpicsize {
+.picsize {
     max-height:100%;
     max-width:100%;
     margin-bottom: 15px;
@@ -156,3 +156,36 @@ footer a:hover {
         margin-top:20px;
     }
     }
+
+.title {
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+.parastyle {
+    line-height:30px;
+}
+
+.sidelinks p {
+    padding-top:30px;
+}
+.sidelinks p:first-child {
+    padding-top:120px;
+}
+
+.sidelinks img {
+    padding-top:15px;
+}
+.sidelinks li a {
+    font-size:18px;
+    color:#A9A9A9;
+}
+
+.sidelinks li a:hover {
+    text-decoration:none;
+    color: #b32323;
+}
+
+.sidelinks .fa {
+    color:#A9A9A9;
+}
